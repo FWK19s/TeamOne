@@ -6,5 +6,8 @@ app.use("/static", express.static("public"));
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
+app.get("/success", (req, res) => {
+  res.sendFile(__dirname + "/public/submission.html");
+});
 
-app.listen(`Server is listening to ${PORT}`);
+app.listen(PORT);
