@@ -60,7 +60,7 @@ body {
   overflow: hidden;
 }
 
-.wrapper div {
+.wrapper > div {
   margin: auto;
   color: #eda51a;
   font-size: 3rem;
