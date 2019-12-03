@@ -10,4 +10,8 @@ app.get("/success", (req, res) => {
   res.sendFile(__dirname + "/public/submission.html");
 });
 
+app.get("/about", (req, res) => {
+  res.sendFile(__dirname + "/about.html");
+});
+
 app.listen(PORT);
