@@ -9,20 +9,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
     <link rel="stylesheet" href="/static/style.css" />
-    <title>Register Form</title>
+    <title>Contact</title>
   </head>
 
   <body>
     <nav class="main-navbar">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="/static/index.html">Home</a></li>
+        <li><a href="/static/about.html">About</a></li>
         <li><a href="/static/contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="wrapper">
-      <form>
-        <h2>Register form</h2>
+      <form >
+        <h2>Contact Us</h2>
         <input
           type="text"
           id="fname"
@@ -45,9 +45,17 @@
         />
         <div class="error"></div>
         <input type="text" id="email" name="email" placeholder="Your e-mail" />
+    
         <div class="error"></div>
+        
+         <textarea class="message"  placeholder="Enter text here..." name="comment"></textarea>
+        <!-- textarea -->
+        <div class="error"></div>
+        
         <input type="submit" value="Send" />
+        
       </form>
+
     </div>
     <script src="/static/app.js"></script>
   </body>

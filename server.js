@@ -9,5 +9,8 @@ app.get("/", (req, res) => {
 app.get("/success", (req, res) => {
   res.sendFile(__dirname + "/public/submission.html");
 });
+app.get("/success", (req, res) => {
+  res.sendFile(__dirname + "/public/contact.html");
+});
 
 app.listen(PORT);

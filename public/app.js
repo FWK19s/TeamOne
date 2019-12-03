@@ -1,7 +1,8 @@
 const form = document.querySelector("form");
-const inputs = document.querySelectorAll("input");
+
+const inputs = document.querySelectorAll("input, textarea");
 const errorMessages = document.querySelectorAll(".error");
-const required = ["firstname", "lastname", "phone", "email"];
+const required = ["firstname", "lastname", "phone", "email","comment"];
 form.addEventListener("submit", validateForm);
 
 function validateForm(e) {
