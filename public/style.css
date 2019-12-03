@@ -60,10 +60,11 @@ body {
   overflow: hidden;
 }
 
-.wrapper i {
+.wrapper div {
   margin: auto;
-  color: green;
-  font-size: 25rem;
+  color: #eda51a;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .wrapper form {
