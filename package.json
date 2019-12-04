@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/FWK19s/TeamOne#readme",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.1"
   }
